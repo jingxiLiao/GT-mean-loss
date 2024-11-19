@@ -1,4 +1,4 @@
-# iimplementation of GT-mean loss
+# Implementation of GT-mean loss
 
 We use Retinexformer as an example to quickly verify the effect of GT-mean loss.  
 
