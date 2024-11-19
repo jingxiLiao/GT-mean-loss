@@ -1,6 +1,9 @@
-# paper2025
+# iimplementation of GT-mean loss
+
 We use Retinexformer as an example to quickly verify the effect of GT-mean loss.  
+
 See .\basicsr\models\losses\losses.py for the implementation of GT-mean loss
+
 ## 1. Create Environment
 
 - Make Conda Environment
@@ -27,7 +30,7 @@ python setup.py develop --no_cuda_ext
 ## 2. Prepare Dataset
 
 <details close>
-<summary><b> “The LOL-v1 and LOL-v2 datasets are organized as follows: </b></summary>
+    <summary><b> The LOL-v1 and LOL-v2 datasets are organized as follows:  </b></summary>
 
 ```
     |--data   
