@@ -1,5 +1,6 @@
 # paper2025
-We use Retinexformer as an example to quickly verify the effect of GTmean loss.
+We use Retinexformer as an example to quickly verify the effect of GT-mean loss.  
+See .\basicsr\models\losses\losses.py for the implementation of GT-mean loss
 ## 1. Create Environment
 
 - Make Conda Environment
@@ -105,6 +106,9 @@ We also provide download links for LIME, NPE, MEF, DICM, and VV datasets that ha
 
 
 ## 3. Testing
+
+Checkpoints: [Google Drive](https://drive.google.com/drive/folders/18MxWrefiJMYL5WS8iJ6NaiVP4ESte5dG?usp=sharing)
+
 ```shell
 # LOL-v1
 # Retinexformer
