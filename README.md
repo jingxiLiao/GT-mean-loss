@@ -27,11 +27,7 @@ python setup.py develop --no_cuda_ext
 ## 2. Prepare Dataset
 Download the following datasets:
 
-LOL-v1 [Google Drive](https://drive.google.com/file/d/1L-kqSQyrmMueBh_ziWoPFhfsAh50h20H/view?usp=sharing)
-
-LOL-v2 [Google Drive](https://drive.google.com/file/d/1Ou9EljYZW8o5dbDCf9R34FS8Pd8kEp2U/view?usp=sharing)
-
-
+LOL-v1, LOL-v2
 
 <details close>
 <summary><b> Then organize these datasets as follows: </b></summary>
@@ -100,14 +96,8 @@ LOL-v2 [Google Drive](https://drive.google.com/file/d/1Ou9EljYZW8o5dbDCf9R34FS8P
 ```
 </details>
 
-We also provide download links for LIME, NPE, MEF, DICM, and VV datasets that have no ground truth:
-[Google Drive](https://drive.google.com/drive/folders/1RR50EJYGIHaUYwq4NtK7dx8faMSvX8Xp?usp=drive_link)
-
-
 
 ## 3. Testing
-
-Checkpoints: [Google Drive](https://drive.google.com/drive/folders/18MxWrefiJMYL5WS8iJ6NaiVP4ESte5dG?usp=sharing)
 
 ```shell
 # LOL-v1
