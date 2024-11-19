@@ -94,7 +94,7 @@ train:
   pixel_opt:
     type: GTmeanLoss
     loss_weight: dou_KL_2
-    reduction: mean
+    reduction: none
     sigma_: 0.1
 
 # validation settings
