@@ -25,12 +25,9 @@ python setup.py develop --no_cuda_ext
 &nbsp;
 
 ## 2. Prepare Dataset
-Download the following datasets:
-
-LOL-v1, LOL-v2
 
 <details close>
-<summary><b> Then organize these datasets as follows: </b></summary>
+<summary><b> “The LOL-v1 and LOL-v2 datasets are organized as follows: </b></summary>
 
 ```
     |--data   
