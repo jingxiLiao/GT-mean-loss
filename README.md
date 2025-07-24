@@ -136,6 +136,14 @@ python3 basicsr/train.py --opt Options/RetinexFormer_LOL_v2_real_GTmeanLoss.yml
 python3 basicsr/train.py --opt Options/RetinexFormer_LOL_v2_synthetic.yml
 # LOL-v2-syntheticl, Retinexformer with GT-mean loss
 python3 basicsr/train.py --opt Options/RetinexFormer_LOL_v2_synthetic_GTmeanLoss.yml
+```
 
-
+## Citation
+```
+@InProceedings{gtmeanloss_liao,
+    author = {Jingxi, Liao and Shijie, Hao and Richang, Hong and Meng, Wang},
+    title = {GT-Mean Loss: A Simple Yet Effective Solution for Brightness Mismatch in Low-Light Image Enhancement},
+    booktitle = {ICCV},
+    year = {2025}
+}
 ```
