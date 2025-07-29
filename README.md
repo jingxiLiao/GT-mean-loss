@@ -1,4 +1,4 @@
-# (ICCV 2025) GT-Mean Loss: A Simple Yet Effective Solution for Brightness Mismatch in Low-Light Image Enhancement.
+# (ICCV 2025)[ GT-Mean Loss: A Simple Yet Effective Solution for Brightness Mismatch in Low-Light Image Enhancement.](https://www.arxiv.org/abs/2507.20148)
 
 We use Retinexformer as an example to quickly verify the effect of GT-mean loss.  
 
