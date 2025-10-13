@@ -62,6 +62,10 @@ def get_hash():
 
 
 def write_version_py():
+    # 如果 basicsr/version.py 已存在，直接使用它，不需要重新生成
+    if os.path.exists(version_file):
+        return
+    
     content = """# GENERATED VERSION FILE
 # TIME: {}
 __version__ = '{}'
@@ -69,8 +73,13 @@ short_version = '{}'
 version_info = ({})
 """
     sha = get_hash()
-    with open('VERSION', 'r') as f:
-        SHORT_VERSION = f.read().strip()
+    # 尝试从 VERSION 文件读取版本号，如果不存在则使用默认版本
+    if os.path.exists('VERSION'):
+        with open('VERSION', 'r') as f:
+            SHORT_VERSION = f.read().strip()
+    else:
+        SHORT_VERSION = '1.2.0'  # 默认版本号
+    
     VERSION_INFO = ', '.join(
         [x if x.isdigit() else f'"{x}"' for x in SHORT_VERSION.split('.')])
     VERSION = SHORT_VERSION + '+' + sha
